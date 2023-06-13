@@ -1,3 +1,9 @@
+<script lang="ts">
+export default {
+
+}
+</script>
+
 <template>
   <div class="col-md-12 personalization-title">
     <div class="circle">
@@ -10,10 +16,7 @@
   <div class="col-md-6 personalized-image">
     <img src="/src/assets/img/3d_model.png" alt="3d model">
   </div>
-  <div class="col-md-6 perzonnalization-menu">
+  <div class="col-md-6 perzonalization-menu">
 
   </div>
 </template>
-
-<script>
-</script>

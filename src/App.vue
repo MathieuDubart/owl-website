@@ -15,7 +15,7 @@ import PersonalizationComponent from './components/PersonalizationComponent.vue'
         <HeaderComponent />
       </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid separator-container">
       <div class="row">
         <SeparatorComponent />
       </div>

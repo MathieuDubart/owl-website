@@ -74,12 +74,11 @@ a.link {
 
 a.link:hover{
   background-color:var(--green-color);
-  transform: translateX(366px);
 }
 
 .header {
   min-height: 500px;
-  background-color: var(--secondary-color);
+  /* background-color: var(--secondary-color); */
 }
 .header .header-text {
   padding-left: 2em;
@@ -101,7 +100,11 @@ a.link:hover{
   color: var(--white-color);
   margin-bottom: calc(var(--margin-bottom)*3);
 }
+.separator-container {
+  padding: 0;
+}
 .separator .header-separator{
+  position: relative;
   width: 100%;
   min-height: 150px;
   height: auto;
@@ -160,7 +163,7 @@ a.link:hover{
   height: 100%;
 }
 .product-row .our-product {
-  background-image: url('/src/assets/img/vague_loop.svg'), url('');
+  background-image: url('/src/assets/img/vague_loop.svg');
   background-position: top -25px right;
   background-repeat: no-repeat;
   background-size: 60%;
@@ -248,4 +251,8 @@ a.link:hover{
 .personalization-title .title {
   position: relative;
   left: -21px;
+}
+
+.personalization-menu {
+  background-image: url('/src/assets/img/vague_perso.svg');
 }
