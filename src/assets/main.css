@@ -232,7 +232,7 @@ a.link:hover{
 
 .vimeo-integration {
   margin-top:calc(var(--margin-top)*14);
-
+  margin-bottom:calc(var(--margin-top)*14);
   padding: 0;
 }
 
