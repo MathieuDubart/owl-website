@@ -103,6 +103,7 @@ a.link:hover{
 .separator {
   background-image: url("/src/assets/img/header_separator.svg");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .separator .for-who {
@@ -159,7 +160,9 @@ a.link:hover{
 .product-row .product-image {
   height: 400px;
   width: auto;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .product-row .product-image img {
