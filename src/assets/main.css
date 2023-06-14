@@ -276,7 +276,6 @@ a.link:hover{
   background-position: center right;
 }
 .perzonalization-menu .subtitle {
-
   margin-top: calc(var(--margin-top)*4);
   height: 80px;
 }
@@ -301,15 +300,5 @@ a.link:hover{
 
 [type=radio]:checked + img {
   filter: blur(3px);
-}
-
-.checkmark {
-  position: absolute;
-  display: none;
-  width:80px;
-  height: 80px;
-}
-
-[type=radio]:checked + .checkmark{
-  display: block;
+  outline: var(--grey-color) 2px;
 }
