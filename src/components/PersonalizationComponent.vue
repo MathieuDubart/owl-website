@@ -1,9 +1,9 @@
 <script lang="ts">
-import products from '/src/products.json'
+import productsData from '../assets/products.json'
 export default {
   data() {
     return {
-      products: products,
+      products: productsData,
       selectedProduct: {
         "id": 8,
         "alt": "Green reversing radar",
@@ -34,7 +34,6 @@ export default {
     <div v-for="product in products"  class="button-product">
       <input type="radio" :value="product" name="product" v-model="selectedProduct" checked>
       <img :src="product.icon" :alt="product.alt">
-      <img src="/src/assets/img/products/icons/checkmark.svg" class="checkmark">
     </div>
   </div>
 </template>
