@@ -1,12 +1,16 @@
-<svg width="447" height="350" viewBox="0 0 447 350" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M846.344 338.594C652.573 361.557 116.781 196 148 87.0001C162.464 36.5 225.438 47.9564 232 105.499C238.5 162.5 186 198.203 127 162.5C80 134.058 44 87.0001 9.49997 9.99969" stroke="url(#paint0_linear_220_137)" stroke-width="18" stroke-linecap="round"/>
+<svg width="698" height="842" viewBox="0 0 698 842" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1097.34 429.594C903.573 452.557 367.781 287 399 178C413.464 127.5 476.438 138.956 483 196.499C489.5 253.5 437 289.203 378 253.5C331 225.058 295 178 260.5 101" stroke="url(#paint0_linear_295_55)" stroke-width="18" stroke-linecap="round"/>
+<path d="M315.286 107.537C462.5 -8.1439 736.625 12.1781 837.241 109.048C907.681 176.865 797.807 382.081 797.805 427.427C797.805 427.427 750.27 551.069 692.575 691.923C671.237 744.014 539.171 864.418 360.635 837.856C182.1 811.293 37.4052 798.257 7.30373 691.923C-27.9411 567.419 81.5804 573.298 170.506 488.227C259.432 403.155 196.744 200.687 315.286 107.537Z" fill="url(#paint1_linear_295_55)"/>
 <defs>
-<linearGradient id="paint0_linear_220_137" x1="883.545" y1="455.661" x2="-74.7612" y2="-18.3954" gradientUnits="userSpaceOnUse">
-<stop offset="0.354167" stop-color="#00FFC9"/>
-<stop offset="0.485409" stop-color="#00FFC9"/>
-<stop offset="0.625218" stop-color="#25D6D9"/>
-<stop offset="0.733821" stop-color="#6095F4"/>
-<stop offset="0.930148" stop-color="#787CFF" stop-opacity="0"/>
+<linearGradient id="paint0_linear_295_55" x1="1136.17" y1="538.927" x2="200.038" y2="75.8398" gradientUnits="userSpaceOnUse">
+<stop offset="0.57" stop-color="#00FFC9"/>
+<stop offset="0.69" stop-color="#25D6D9"/>
+<stop offset="0.9" stop-color="#6095F4"/>
+<stop offset="1" stop-color="#787CFF"/>
+</linearGradient>
+<linearGradient id="paint1_linear_295_55" x1="1237.3" y1="558.226" x2="548.115" y2="398.06" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2F32FF"/>
+<stop offset="1" stop-color="#D3E6FC" stop-opacity="0.18"/>
 </linearGradient>
 </defs>
 </svg>

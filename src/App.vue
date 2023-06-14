@@ -16,14 +16,12 @@ import PersonalizationComponent from './components/PersonalizationComponent.vue'
       </div>
     </div>
     <div class="container-fluid separator-container">
-      <div class="row">
-        <SeparatorComponent />
-      </div>
+      <SeparatorComponent />
     </div>
   </header>
 
   <main>
-    <div class="container product-container" id="product">
+    <div class="container-fluid product-container" id="product">
       <ProductComponent />
     </div>
     <div class="container">
@@ -36,7 +34,7 @@ import PersonalizationComponent from './components/PersonalizationComponent.vue'
         <VideoComponent />
       </div>
     </div>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <PersonalizationComponent />
       </div>
