@@ -299,6 +299,5 @@ a.link:hover{
 }
 
 [type=radio]:checked + img {
-  filter: blur(3px);
-  outline: var(--grey-color) 2px;
+  filter: blur(2px);
 }
