@@ -1,6 +1,17 @@
 <script lang="ts">
+import products from '/src/products.json'
 export default {
-  
+  data() {
+    return {
+      products: products,
+      selectedProduct: {
+        "id": 8,
+        "alt": "Green reversing radar",
+        "image": "/src/assets/img/products/green_product",
+        "icon": "/src/assets/img/products/icons/white_green"
+      },
+    }
+  },
 }
 </script>
 
@@ -14,9 +25,16 @@ export default {
     </div>
   </div>
   <div class="col-md-6 personalized-image">
-    <img src="/src/assets/img/3d_model.png" alt="3d model">
+    <img :src="selectedProduct.image" :alt="selectedProduct.alt">
   </div>
   <div class="col-md-6 perzonalization-menu">
-
+    <div class="subtitle">
+      Choisissez la couleur qui vous convient le mieux parmi notre large gamme:
+    </div>
+    <div v-for="product in products"  class="button-product">
+      <input type="radio" :value="product" name="product" v-model="selectedProduct" checked>
+      <img :src="product.icon" :alt="product.alt">
+      <img src="/src/assets/img/products/icons/checkmark.svg" class="checkmark">
+    </div>
   </div>
 </template>

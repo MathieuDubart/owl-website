@@ -232,7 +232,7 @@ a.link:hover{
 
 .vimeo-integration {
   margin-top:calc(var(--margin-top)*14);
-  margin-bottom:calc(var(--margin-top)*14);
+  margin-bottom:calc(var(--margin-top)*7);
   padding: 0;
 }
 
@@ -252,6 +252,7 @@ a.link:hover{
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-end;
+  margin-bottom:calc(var(--margin-top)*7);
 }
 
 .personalization-title .title {
@@ -259,6 +260,57 @@ a.link:hover{
   left: -21px;
 }
 
-.personalization-menu {
+.personalized-image img {
+  height: 400px;
+  width: auto;
+}
+
+.perzonalization-menu {
   background-image: url('/src/assets/img/vague_perso.svg');
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+.perzonalization-menu .subtitle {
+  /* color: var(--white-color); */
+  margin-top: calc(var(--margin-top)*4);
+  height: 80px;
+}
+.button-product {
+  width: calc(100%/4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+[type=radio] { 
+  position: absolute;
+  opacity: 0;
+  width:80px;
+  height: 80px;
+}
+
+[type=radio] + img {
+  cursor: pointer;
+}
+
+[type=radio]:checked + img {
+  filter: blur(3px);
+}
+
+.checkmark {
+  position: absolute;
+  display: none;
+  width:80px;
+  height: 80px;
+}
+
+[type=radio]:checked + .checkmark{
+  display: block;
 }
