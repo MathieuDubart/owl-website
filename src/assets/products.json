@@ -1,50 +1,38 @@
 [
   {
     "id": 1,
-    "alt": "White and green reversing radar",
-    "image": "/products/white_green_product.jpeg",
+    "alt": "Dark blue and Light blue reversing radar",
+    "image": "/products/blue_product.png",
     "icon": "/products/icons/white_green.svg"
   },
   {
     "id": 2,
-    "alt": "Pink reversing radar",
-    "image": "/products/pink_product",
+    "alt": "Blue and purple reversing radar",
+    "image": "/products/blue_purple_product.png",
     "icon": "/products/icons/pink.svg"
   },
   {
     "id": 3,
-    "alt": "Black and grey reversing radar",
-    "image": "/products/black_grey_product",
+    "alt": "Yellow and Blue reversing radar",
+    "image": "/products/yellow_blue_product.png",
     "icon": "/products/icons/black_grey.svg"
   },
   {
     "id": 4,
-    "alt": "Red and black reversing radar",
-    "image": "/products/red_black_product",
+    "alt": "Blue and black reversing radar",
+    "image": "/products/black_blue_product.png",
     "icon": "/products/icons/red_black.svg"
   },
   {
     "id": 5,
-    "alt": "Orange and pink reversing radar",
-    "image": "/products/orange_pink_product",
+    "alt": "Red and green reversing radar",
+    "image": "/products/red_green_product.png",
     "icon": "/products/icons/orange_pink.svg"
   },
   {
     "id": 6,
-    "alt": "Dark green and black reversing radar",
-    "image": "/products/green_black_product",
+    "alt": "Green and pink reversing radar",
+    "image":"/products/green_pink_product.png",
     "icon": "/products/icons/green_black.svg"
-  },
-  {
-    "id": 7,
-    "alt": "Dark blue and black reversing radar",
-    "image": "/products/blue_black_product",
-    "icon": "/products/icons/blue_black.svg"
-  },
-  {
-    "id": 8,
-    "alt": "Green reversing radar",
-    "image": "/products/green_product",
-    "icon": "/products/icons/green.svg"
   }
 ]
