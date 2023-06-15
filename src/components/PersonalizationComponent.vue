@@ -5,10 +5,10 @@ export default {
     return {
       products: productsData,
       selectedProduct: {
-        "id": 8,
-        "alt": "Green reversing radar",
-        "image": "/products/green_pink_product.png",
-        "icon": "/products/icons/white_green.svg"
+        "id": 6,
+        "alt": "Green and pink reversing radar",
+        "image":"/products/vert_rose_product.png",
+        "icon": "/products/icons/vert_rose_icon.svg"
       },
     }
   },
