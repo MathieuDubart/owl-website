@@ -142,9 +142,13 @@ a.link:hover{
 }
 
 .separator .product-image {
-  padding: 10em 4em 0 0em;
+  padding: 10em 2em 0 0em;
 }
 
+.separator .product-image img{
+  max-width: 75%;
+  margin-left: 2em;
+}
 .for-who {
   padding-top: 15em;
 }
