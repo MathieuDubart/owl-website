@@ -428,6 +428,14 @@ a.link:hover{
   flex-direction: row;
   padding: 0 1em;
 }
+.footer-mentions .school-mentions {
+  display: flex;
+}
+
+.footer-mentions .school-mentions .logo-gobelins {
+  width: 80px;
+  height: auto;
+}
 .footer .footer-mentions .paragraph {
   color: var(--white-color);
   margin-bottom: 0;

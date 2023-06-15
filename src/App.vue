@@ -45,7 +45,7 @@ import FooterComponent from './components/FooterComponent.vue'
     <div class="container-fluid customers-feedback">
       <CustomersFeedbacksComponent />
     </div>
-    <div class="container-fluid footer">
+    <div class="containers footer">
       <FooterComponent />
     </div>
   </main>
