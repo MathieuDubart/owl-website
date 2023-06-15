@@ -81,32 +81,31 @@ a.link:hover{
   flex-direction: row;
 }
 
-.header .logo-container, .header .menu-container {
-  width: 50%;
-  margin-top: 1em;
+.header .menu-container {
+  margin-top: 2em;
+  padding-right: 2em;
 }
-
-.header .logo-container img.logo{
-  max-height: 48px;
-  width: auto;
-} 
 
 .header .menu-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   text-align: right;
-}
-
-.header .menu-container a.menu-link:hover {
-  color: var(--green-color);
 }
 
 .header .menu-container a.menu-link {
   background-color: transparent;
   padding: 0;
   height: fit-content;
+  width: fit-content;
+  font-size: var(--subtitle-size);
+  margin-left: 3em;
 }
+.header .menu-container a.menu-link:hover {
+  color: var(--green-color);
+}
+
+
 .header {
   min-height: 500px;
   background-color: var(--secondary-color);
