@@ -5,6 +5,9 @@ import ProductComponent from './components/ProductComponent.vue'
 import SpecsComponent from './components/SpecsComponent.vue'
 import VideoComponent from './components/VideoComponent.vue'
 import PersonalizationComponent from './components/PersonalizationComponent.vue'
+import CustomersFeedbacksComponent from './components/CustomersFeedbacksComponent.vue'
+import FooterComponent from './components/FooterComponent.vue'
+
 
 </script>
 
@@ -38,6 +41,12 @@ import PersonalizationComponent from './components/PersonalizationComponent.vue'
       <div class="row">
         <PersonalizationComponent />
       </div>
+    </div>
+    <div class="container-fluid customers-feedback">
+      <CustomersFeedbacksComponent />
+    </div>
+    <div class="container-fluid footer">
+      <FooterComponent />
     </div>
   </main>
 </template>
