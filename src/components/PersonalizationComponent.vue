@@ -16,7 +16,7 @@ export default {
 </script>
 
 <template>
-  <div class="col-md-12 personalization-title">
+  <div class="col-md-12 personalization-title" id="personalization">
     <div class="circle">
       <img src="/src/assets/img/anneau_2.svg" alt="anneau">
     </div>

@@ -24,6 +24,8 @@
   --subtitle-weight: 600;
   --paragraph-weight: 400;
   --border-radius: 24px;
+
+  scroll-behavior: smooth;
 }
 
 span.bold {
@@ -75,7 +77,36 @@ a.link {
 a.link:hover{
   background-color:var(--green-color);
 }
+.header .col-md-12 {
+  flex-direction: row;
+}
 
+.header .logo-container, .header .menu-container {
+  width: 50%;
+  margin-top: 1em;
+}
+
+.header .logo-container img.logo{
+  max-height: 48px;
+  width: auto;
+} 
+
+.header .menu-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: right;
+}
+
+.header .menu-container a.menu-link:hover {
+  color: var(--green-color);
+}
+
+.header .menu-container a.menu-link {
+  background-color: transparent;
+  padding: 0;
+  height: fit-content;
+}
 .header {
   min-height: 500px;
   background-color: var(--secondary-color);

@@ -1,5 +1,5 @@
 <template>
-  <div class="main-footer">
+  <div class="main-footer" id="contact">
     <div class="title">Une question ?</div>
     <div class="paragraph">Pour tout supplément d'information <br/> n'hésitez à nous contacter.</div>
     <a href="mailto:contact@owl-project.com" class="link contact-us">Contactez-nous</a>
