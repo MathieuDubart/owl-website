@@ -553,6 +553,12 @@ a.link:hover{
     flex-direction: column;
     align-items: center;
   }
+  .footer-mentions .school-mentions .logo-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: calc(var(--margin-top)/2);
+  }
   .footer-mentions .school-mentions img, .footer-mentions .school-mentions .logo-gobelins{
     max-width: 80px;
     width: auto;
@@ -562,5 +568,8 @@ a.link:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .footer-mentions .school-mentions, .footer .footer-mentions .legal-mentions, .footer-mentions .names {
+    margin-bottom: calc(var(--margin-bottom));
   }
 }
