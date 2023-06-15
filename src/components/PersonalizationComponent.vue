@@ -7,8 +7,8 @@ export default {
       selectedProduct: {
         "id": 8,
         "alt": "Green reversing radar",
-        "image": "/src/assets/img/products/green_pink_product.png",
-        "icon": "/src/assets/img/products/icons/white_green.svg"
+        "image": "/products/green_pink_product",
+        "icon": "/products/icons/white_green.svg"
       },
     }
   },
