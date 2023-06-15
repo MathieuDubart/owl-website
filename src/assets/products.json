@@ -2,37 +2,37 @@
   {
     "id": 1,
     "alt": "Dark blue and Light blue reversing radar",
-    "image": "/products/blue_product.png",
-    "icon": "/products/icons/white_green.svg"
+    "image": "/products/bleuFonce_bleuClair_product.png",
+    "icon": "/products/icons/bleuFonce_bleuClair_icon.svg"
   },
   {
     "id": 2,
     "alt": "Blue and purple reversing radar",
-    "image": "/products/blue_purple_product.png",
-    "icon": "/products/icons/pink.svg"
+    "image": "/products/bordeau_bleu_product.png",
+    "icon": "/products/icons/bordeau_bleu_icon.svg"
   },
   {
     "id": 3,
     "alt": "Yellow and Blue reversing radar",
-    "image": "/products/yellow_blue_product.png",
-    "icon": "/products/icons/black_grey.svg"
+    "image": "/products/jaune_bleu_product.png",
+    "icon": "/products/icons/jaune_bleu_icon.svg"
   },
   {
     "id": 4,
     "alt": "Blue and black reversing radar",
-    "image": "/products/black_blue_product.png",
-    "icon": "/products/icons/red_black.svg"
+    "image": "/products/noir_bleu_product.png",
+    "icon": "/products/icons/jaune_bleu_icon.svg"
   },
   {
     "id": 5,
     "alt": "Red and green reversing radar",
-    "image": "/products/red_green_product.png",
-    "icon": "/products/icons/orange_pink.svg"
+    "image": "/products/rouge_vert_product.png",
+    "icon": "/products/icons/rouge_vert_icon.svg"
   },
   {
     "id": 6,
     "alt": "Green and pink reversing radar",
-    "image":"/products/green_pink_product.png",
-    "icon": "/products/icons/green_black.svg"
+    "image":"/products/vert_rose_product.png",
+    "icon": "/products/icons/vert_rose_icon.svg.svg"
   }
 ]
