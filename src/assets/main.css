@@ -428,13 +428,13 @@ a.link:hover{
   flex-direction: row;
   padding: 0 1em;
 }
-.footer-mentions .school-mentions {
+.footer-mentions .school-mentions , .footer-mentions .school-mentions .logo-row {
   display: flex;
 }
 
-.footer-mentions .school-mentions .logo-gobelins {
-  width: 80px;
-  height: auto;
+.footer-mentions .school-mentions .logo-row img {
+  width: auto;
+  height: 50px;
 }
 .footer .footer-mentions .paragraph {
   color: var(--white-color);
@@ -528,6 +528,9 @@ a.link:hover{
     background-color: transparent;
   }
 
+  .footer {
+    padding: 3em 1em;
+  }
   .footer-mentions {
     flex-direction: column;
     align-items: center;
@@ -540,13 +543,20 @@ a.link:hover{
   .footer .footer-mentions .paragraph {
     text-align: center;
     justify-content: center;
-    margin-bottom: var(--margin-bottom);
-
   }
   .footer-mentions {
     align-items: center;
     justify-content: center;
     text-align: center;
+  }
+  .footer-mentions .school-mentions {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-mentions .school-mentions img, .footer-mentions .school-mentions .logo-gobelins{
+    max-width: 80px;
+    width: auto;
+    height: 60px;
   }
   .footer-mentions .legal-mentions, .footer-mentions .names {
     display: flex;

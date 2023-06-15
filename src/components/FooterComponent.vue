@@ -7,8 +7,10 @@
   <div class="footer-mentions">
     <div class="school-mentions">
       <p class="paragraph">Ceci est un projet étudiant dans le cadre de notre formation à: </p>
-      <img src="/src/assets/img/cci_logo.png" alt="logo école cci">
-      <img src="/src/assets/img/gobelins_logo.png" alt="logo école gobelins" class="logo-gobelins">
+      <div class="logo-row">
+        <img src="/src/assets/img/cci_logo.png" alt="logo école cci">
+        <img src="/src/assets/img/gobelins_logo.png" alt="logo école gobelins" class="logo-gobelins">
+      </div>
     </div>
     <div class="paragraph legal-mentions"> @2023 - Tous droits réservés </div>
     <div class="paragraph names"> Clarisse GRÉLY, Baptiste SINHSATTANAK, Mathieu DUBART </div>
