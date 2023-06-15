@@ -459,6 +459,14 @@ a.link:hover{
   justify-content:flex-end;
 }
 @media (max-width: 760px) {
+  .header .menu-container a.menu-link {
+    font-size: cal(var(--paragraph-size)*0.9);
+    margin-left: 0;
+  }
+  .header .menu-container{
+    display: flex;
+    justify-content: space-evenly;
+   }
   .header .header-text {
     padding-left: 1em;
     padding-top: 3em;
