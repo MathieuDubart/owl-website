@@ -367,7 +367,7 @@ a.link:hover{
 .feedback-card {
   border-radius: 24px;
   padding: 2em;
-
+  height: 100%;
 }
   
 .green{
