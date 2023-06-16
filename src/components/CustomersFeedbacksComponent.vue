@@ -3,7 +3,7 @@
     <div class="col-md-12 title"> Les retours de nos utilisateurs </div>
   </div>
   <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-4 card-col">
       <div class="feedback-card green">
         <div class="feedback-header">
           <div class="icon"><img src="/src/assets/img/avis_1.svg" alt="icône avis"></div>
@@ -15,7 +15,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 card-col">
       <div class="feedback-card blue">
         <div class="feedback-header">
           <div class="icon"><img src="/src/assets/img/avis_2.svg" alt="icône avis"></div>
@@ -27,7 +27,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 card-col">
       <div class="feedback-card violet">
         <div class="feedback-header">
           <div class="icon"><img src="/src/assets/img/avis_3.svg" alt="icône avis"></div>

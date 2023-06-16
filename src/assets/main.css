@@ -515,7 +515,9 @@ a.link:hover{
   .perzonalization-menu .subtitle {
     margin-bottom: calc(var(--margin-bottom)*4);
   }
-
+  .card-col {
+    margin-bottom: var(--margin-bottom);
+  }
   .feedback-card {
     margin-bottom: var(--margin-bottom);
   }
