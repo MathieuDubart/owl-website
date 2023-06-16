@@ -327,9 +327,12 @@ a.link:hover{
 
 [type=radio] + img {
   cursor: pointer;
+  border-radius: 50px;
 }
 
 [type=radio]:checked + img {
+  outline-color: #CBEA13;
+  outline-width: 3px;
   box-shadow: 5px 5px 5px #1A085C;
 }
 
