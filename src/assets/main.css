@@ -330,7 +330,7 @@ a.link:hover{
 }
 
 [type=radio]:checked + img {
-  filter: blur(2px);
+  box-shadow: 5px 5px 5px #1A085C;
 }
 
 
