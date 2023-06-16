@@ -8,8 +8,8 @@
         <div class="spec-row">
           <div class="subtitle"> Module sur accoudoir: </div>
           <div class="paragraph"> 22x10x7cm </div>
-          <div class="subtitle"> Module sur accoudoir: </div>
-          <div class="paragraph"> 22x10x7cm </div>
+          <div class="subtitle"> Support sur arrière du fauteuil : </div>
+          <div class="paragraph"> 55x9x13cm </div>
         </div>
       </div>
 
@@ -17,7 +17,7 @@
         <div class="spec-icon"> <img src="/src/assets/img/battery_icon.svg" alt="battery icon"> </div>
         <div class="spec-row">
           <div class="subtitle"> Batterie: </div>
-          <div class="paragraph"> 3 jours d'autonomie </div>
+          <div class="paragraph"> environ 3 jours d'autonomie </div>
           <div class="paragraph"> Batterie 6v </div>
         </div>
       </div>
