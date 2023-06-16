@@ -316,6 +316,7 @@ a.link:hover{
   justify-content: center;
   align-items: center;
   user-select: none;
+  margin-bottom: var(--margin-bottom);
 }
 
 [type=radio] { 
