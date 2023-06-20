@@ -301,6 +301,8 @@ a.link:hover{
 .personalized-image img {
   max-height: 800px;
   max-width: 1260px;
+  height: auto;
+  width: auto;
 }
 
 .perzonalization-menu {
