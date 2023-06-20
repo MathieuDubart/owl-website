@@ -299,9 +299,7 @@ a.link:hover{
   align-items: center;
 }
 .personalized-image img {
-  max-height: 800px;
-  max-width: 1260px;
-  height: auto;
+  height: 800px;
   width: auto;
 }
 
@@ -520,8 +518,8 @@ a.link:hover{
   }
 
   .personalized-image img {
-    max-height: 400px;
-    max-width: 630px;
+    height: 400px;
+    width: auto;
   }
 
   .personalization-title .circle {
