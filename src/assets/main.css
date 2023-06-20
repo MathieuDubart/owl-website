@@ -518,6 +518,12 @@ a.link:hover{
     height: 300px;
   }
 
+  .personalized-image img {
+    max-height: 400px;
+    max-width: 630px;
+    aspect-ratio: 16/9;
+  }
+
   .personalization-title .circle {
     padding-bottom: var(--margin-bottom);
   }
