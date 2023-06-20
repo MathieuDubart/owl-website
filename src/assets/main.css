@@ -293,7 +293,11 @@ a.link:hover{
   position: relative;
   left: -21px;
 }
-
+.personalized-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .personalized-image img {
   max-height: 800px;
   max-width: 1260px;
