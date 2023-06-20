@@ -297,6 +297,7 @@ a.link:hover{
 .personalized-image img {
   height: 400px;
   width: auto;
+  aspect-ratio: 16/9;
 }
 
 .perzonalization-menu {
