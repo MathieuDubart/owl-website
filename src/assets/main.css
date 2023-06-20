@@ -301,7 +301,6 @@ a.link:hover{
 .personalized-image img {
   max-height: 800px;
   max-width: 1260px;
-  aspect-ratio: 16/9;
 }
 
 .perzonalization-menu {
@@ -521,7 +520,6 @@ a.link:hover{
   .personalized-image img {
     max-height: 400px;
     max-width: 630px;
-    aspect-ratio: 16/9;
   }
 
   .personalization-title .circle {
